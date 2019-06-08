@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J-Frame</title>
+    <script src="J-Frame.js"></script>
+</head>
+<body>
+<div id="shuaijian" style="color: red">DogeJian</div>
+<p style="color:red">666</p>
+<a class="yanbao">Yan</a><br><br>
+<input type="button" name="button" value='button' style="color: red" />
+<script>
+    window.onload=function() {
+        J("#shuaijian").css('color','blue');
+        J("p").css('color','green');
+        J("input").css('color','pink');
+        J("input").css('background','white');
+        J(".yanbao").css('color','red');
+        J('input').click(function () {
+            alert('66');
+        })
+    }
+</script>
+</body>
+</html>

@@ -98,7 +98,3 @@ DogeJian.prototype.html=function(str){
     }
     return this;
 };
-
-DogeJian.prototype.click=function () {
-    return this;
-};
